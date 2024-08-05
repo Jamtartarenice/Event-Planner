@@ -1,0 +1,38 @@
+.events-container {
+  padding: 20px;
+}
+
+.event-box {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-box h3 {
+  margin-top: 0;
+}
+
+.event-box p {
+  color: #666;
+}
+
+.event-actions {
+  margin-top: 10px;
+}
+
+.event-actions button {
+  background-color: #4285F4;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.event-actions button:hover {
+  background-color: #357ae8;
+}

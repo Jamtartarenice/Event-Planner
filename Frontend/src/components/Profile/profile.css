@@ -1,0 +1,59 @@
+.profile-picture, .fallback-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+  
+  .fallback-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #home, #events, #contact, #privacy-policy, #terms-and-service, #staff-events {
+    padding: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+  }
+  
+  .footer-fixed {
+    position: fixed;
+    bottom: 0;
+  }
+  
+  .content-wrapper {
+    min-height: calc(100vh - 60px);
+    padding-bottom: 60px; 
+  }
+  
+  nav ul {
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  

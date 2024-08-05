@@ -1,0 +1,39 @@
+{
+  "name": "event_planner_backend",
+  "version": "1.0.0",
+  "description": "Event Planner Backend",
+  "main": "index.js",
+  "scripts": {
+    "setup-dbs": "psql -f ./init_db.sql",
+    "seed": "node ./src/config/run-seeds.js",
+    "seed-prod": "NODE_ENV=production npm run seed",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jamtartarenice/Event_Planner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jamtartarenice/Event_Planner/issues"
+  },
+  "homepage": "https://github.com/Jamtartarenice/Event_Planner#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "google-auth-library": "^7.0.2",
+    "googleapis": "^140.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

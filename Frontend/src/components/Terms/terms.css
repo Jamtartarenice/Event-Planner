@@ -1,0 +1,15 @@
+#terms {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  #terms h2, #terms h3 {
+    color: #333;
+  }
+  
+  #terms p {
+    color: #555;
+    line-height: 1.6;
+  }
+  
